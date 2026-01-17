@@ -1,0 +1,33 @@
+.behaviour {
+    width: 100%;
+  display: flex;
+    place-items: center;
+    text-align: center;
+
+
+    .values-section {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));      
+
+    }
+
+    .wrapper {
+        margin: 0 auto;
+    }
+
+    h5 {
+        padding-bottom: 20px;
+        font-family: 300 !important;
+
+    } 
+    .values-block {
+        text-align: left;
+        font-size: 18px;
+
+        li {
+            padding-bottom: 20px;
+        }
+    }
+    
+   
+}

@@ -1,0 +1,15 @@
+@mixin box-style {
+  padding: 15px;
+  background-color: #f2f2f2;
+  border-radius: 6px;
+}
+
+/* Use the mixin */
+.box {
+  @include box-style;
+}
+
+.text {
+  color: #333;
+  font-size: 18px;
+}

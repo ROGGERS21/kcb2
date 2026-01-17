@@ -1,0 +1,136 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?25036b');
+  src:  url('../fonts/icomoon.eot?25036b#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?25036b') format('truetype'),
+    url('../fonts/icomoon.woff?25036b') format('woff'),
+    url('../fonts/icomoon.svg?25036b#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  // speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-target:before {
+  content: "\e90d";
+  font-size: 50px;  color:$tertially-color;
+
+}
+.icon-tiktok:before {
+  content: "\e902";
+    font-size: 50px;
+
+}
+.icon-keyboard_arrow_down:before {
+  content: "\e90e";
+    font-size: 50px;  color:$tertially-color;
+
+}
+.icon-house:before {
+  content: "\e903";
+    font-size: 30px;  font-size: 50px;  color:$tertially-color;
+
+}
+.icon-users:before {
+  content: "\e904";  font-size: 50px;  color:$tertially-color;
+
+}
+.icon-office:before {
+  content: "\e905";  font-size: 50px;  color:$tertially-color;
+
+}
+.icon-connection:before {
+  content: "\e91b";  font-size: 50px;  color:$tertially-color;
+
+}
+.icon-spinner:before {
+  content: "\e97a";  font-size: 50px;  color:$tertially-color;
+
+}
+.icon-cloud:before {
+  content: "\e9c2";  font-size: 50px;  color:$tertially-color;
+
+}
+.icon-arrow-right::after {
+  content: "\ea3c"; 
+  font-size: 20px;
+  position: relative;
+  margin-left: 22px;
+  display: inline-block;  color:$tertially-color;
+
+  // left: 30px; 
+  transition: transform 0.3s ease;
+}
+.icon-facebook:before {
+  content: "\ea90";  font-size: 15px;
+
+}  
+
+.icon-instagram:before {
+  content: "\ea92";  font-size: 15px;
+
+}
+.icon-whatsapp:before {
+  content: "\ea93";  font-size: 15px;
+
+}
+.icon-youtube:before {
+  content: "\ea9d";  font-size: 15px;
+}
+.icon-object:before {
+  content: "\e906";  font-size: 50px;   color:$tertially-color;
+
+}
+.icon-object-group:before {
+  content: "\e907";  font-size: 50px;   color:$tertially-color;
+
+}
+.icon-group1:before {
+  content: "\e908";  font-size: 50px;   color:$tertially-color;
+
+}
+.icon-bullseye:before {
+  content: "\e909";  font-size: 50px;   color:$tertially-color;
+
+}
+.icon-dots:before {
+  content: "\e901";  font-size: 20px;
+}
+.icon-user-group:before {
+  content: "\e90a";  font-size: 50px;  color:$tertially-color;
+
+}
+.icon-credit:before {
+  content: "\e90b";
+  font-size: 50px;  color:$tertially-color;
+
+}
+.icon-view-show:before {
+  content: "\e90c";  font-size: 50px;
+  color:$tertially-color;
+
+}
+.icon-search:before {
+  content: "\e900";  font-size: 18px;
+  color:$primary-color;
+
+}
+.icon-dot:after {
+  content: "\e901";  font-size: 18px;
+  padding-left: 10px;
+
+}

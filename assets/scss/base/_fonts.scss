@@ -1,0 +1,12 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+
+/* Local font example */
+@font-face {
+  font-family: "MyFont";
+  src: url("../fonts/MyFont-Regular.woff2") format("woff2"),
+       url("../fonts/MyFont-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}

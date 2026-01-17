@@ -1,0 +1,61 @@
+.values {
+     width: 100%;
+
+     h1 {
+        text-align: center;
+        padding-bottom: 20px;
+     }
+
+     .block {
+        text-align: center;
+     }
+
+     .values-section{
+        display: grid;
+        // grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+        gap:10px;
+
+        .icon-description {
+            display: flex;
+            gap:10px;
+            h5 {
+                padding-top: 15px;
+                font-size: 20px;
+            }
+
+            .link-values {
+                position: relative;           
+                padding: 0px;
+              
+               li {
+                  cursor: pointer;
+                  padding-bottom: 10px;
+                  padding: 10px 0px;
+                //   line-height: 20px;
+                  a {
+                    font-size: 20px;
+                  }
+               }
+             
+
+            }
+        }
+     }
+}
+
+@media only screen and  (max-width:760px) {
+
+   .values h1 {
+      padding-bottom: 10px;
+   }
+
+   .content-wrapper {
+        padding: 40px 0px;
+    }
+
+
+
+
+}

@@ -1,0 +1,52 @@
+.about {
+    width: 100%;
+    background-color: $aboutus;
+    position: relative;
+
+    .wrapper {
+        text-align: center;
+    }
+    .solutions {     
+       
+        padding: 0px 30px;
+        .sustainability {       
+             display: grid;
+             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+              li {
+                 margin: 0 auto;
+              }
+             .block {
+                text-align: left;
+               
+             }
+        }
+    }
+
+    h2 {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    h1{
+      color: $tertially-color;
+
+    }
+}
+
+
+
+
+@media only screen and (max-width: 900px) {  
+
+    .about .solutions {
+        padding: 0px;
+    }
+
+    .about .solutions .sustainability {
+        grid-template-columns:repeat(auto-fit, minmax(225px, 1fr));
+ 
+    }
+
+
+}
