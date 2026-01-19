@@ -9,7 +9,7 @@
 
 /*helps to bring mobile view on top and return to hidden place*/
 if ($('.nav-scroller').length) {
-    $(".sidemenu").hide();
+    $(".sidemenu ul").hide();
     $(".has-children").click(function() {
         // e.preventDefault();
         // hide submenu
